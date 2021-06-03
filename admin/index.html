@@ -3,6 +3,49 @@
 <script>
     window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
     panelbear('config', { site: 'CqQGH3acHo3' });
+</script>
+
+<script>
+//DisableSelect (start)
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+//end
+
+// DisableKeys (start)
+document.onkeydown = function (e) {
+    if (event.keyCode == 123) {
+        return false;
+    }
+    if (event.keyCode == 224) {
+        return false;
+    }
+    if (event.keyCode == 17) {
+        return false;
+    }
+    if (event.keyCode == 91) {
+        return false;
+    }
+    if (event.keyCode == 93) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+        return false;
+    }
+    
+}
 </script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>  $(document).ready(function() {
     if (window.location.href.indexOf("?entry=06309DwZ9") > -1) {

@@ -4,15 +4,50 @@
     window.panelbear = window.panelbear || function() { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
     panelbear('config', { site: 'CqQGH3acHo3' });
 </script>
+
+<script>
+//DisableSelect (start)
+document.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+});
+//end
+
+// DisableKeys (start)
+document.onkeydown = function (e) {
+    if (event.keyCode == 123) {
+        return false;
+    }
+    if (event.keyCode == 224) {
+        return false;
+    }
+    if (event.keyCode == 17) {
+        return false;
+    }
+    if (event.keyCode == 91) {
+        return false;
+    }
+    if (event.keyCode == 93) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+    }
+    if (e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)) {
+        return false;
+    }
+    
+}
+</script>
 </head><body id="page-top"><div id="wrapper"><nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="background: #4D6981;"><div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="../index.html"><div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-chart-pie"></i></div><div class="sidebar-brand-text mx-3"><span>BCS Analytics</span></div></a><hr class="sidebar-divider my-0"><ul class="navbar-nav text-light" id="accordionSidebar"><li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a><a class="nav-link" href="notifications.html"><i class="fas fa-bell"></i><span>Notifications</span></a><a class="nav-link" href="../marketing.html"><i class="fas fa-sticky-note"></i><span>BCS Marketing</span></a><a class="nav-link" href="../card.html"><i class="fas fa-address-card"></i><span>BCS Card</span></a></li></ul><div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div></div></nav><div class="d-flex flex-column" id="content-wrapper"><div id="content"><nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top"><div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button><ul class="navbar-nav flex-nowrap ms-auto"><li class="nav-item dropdown no-arrow mx-1"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">1</span><i class="fas fa-bell fa-fw"></i></a><div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><h6 class="dropdown-header" style="background: #4D6981;">alerts center</h6><a class="dropdown-item disabled d-flex align-items-center" href="notifications1.html"><div class="me-3"><div class="bg-primary icon-circle" style="background: #00DFD1;color: #00DFD1;"><i class="material-icons text-white">fiber_new</i></div></div><div><span class="small text-gray-500">June 2, 2021</span><p>Welcome to the new BCS Analytics dashboard!</p></div></a></div></div></li><li class="nav-item dropdown no-arrow mx-1"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-calendar-day fa-fw"></i></a><div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><h6 class="dropdown-header" style="background: #4D6981;">analytics schedule</h6><a class="dropdown-item disabled d-flex align-items-center" href="#"><div class="fw-bold"><div class="text-truncate"><span>Analytics stats updates</span></div><p class="small text-gray-500 mb-0">Every Monday</p></div></a></div></div><div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div></li><div class="d-none d-sm-block topbar-divider"></div><li class="nav-item dropdown no-arrow"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-user fa-fw"></i></a><div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="index.html"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;My Analytics</a><a class="dropdown-item" href="../datareset.html"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a></div></div></li></ul></div></nav><div class="container-fluid"><div class="d-sm-flex justify-content-between align-items-center mb-4"><h3 class="text-dark mb-0">Login</h3></div><div>
-    <script src="https://cdn.jsdelivr.net/npm/magic-sdk/dist/magic.js"></script>
-    <script>
-        import { Magic } from 'magic-sdk';
-
-            const m = new Magic('pk_live_CCE30F2A54DA6105'); // ✨
-    </script>
-
-</div><div>
 
     <script type="text/javascript" src="https://sdk.userbase.com/2/userbase.js"></script>
     <script type="text/javascript">
